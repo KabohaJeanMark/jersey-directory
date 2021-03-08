@@ -26,3 +26,37 @@ a {
   text-decoration: none;
   color: #000;
 }
+
+/*
+    ==============================================
+                ****** MOBILE FIRST DESIGN ******
+    ==============================================
+*/
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  background-color: rgb(201, 64, 64);
+  color: rgb(238, 230, 230);
+}
+
+.logo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  width: 60%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.fas {
+  color: rgb(238, 230, 230);
+}
