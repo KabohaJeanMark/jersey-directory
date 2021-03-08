@@ -22,6 +22,8 @@ ul {
   list-style: none;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
 a {
   text-decoration: none;
   color: #000;
@@ -29,8 +31,8 @@ a {
 
 html {
   scroll-behavior: smooth;
+  font-family: 'Didact Gothic', sans-serif;
 }
-
 
 /*
     ==============================================
@@ -138,4 +140,96 @@ form label,
 .work-items {
   display: grid;
   grid-template-columns: 1fr;
+}
+
+.item-text h4,
+.item-text p {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  text-align: center;
+}
+
+.item p {
+  color: #888;
+}
+
+.item-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.examples {
+  width: 100%;
+}
+
+#example-1 {
+  background-color: rgb(228, 125, 40);
+}
+
+#example-2 {
+  background-color: rgb(195, 225, 233);
+}
+
+#example-3 {
+  background-color: rgb(90, 149, 236);
+}
+
+.article-example {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem 1rem;
+}
+
+.article-image {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.article-image img {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+  margin: 0.5rem;
+}
+
+#example-3 img {
+  border-radius: 10%;
+}
+
+.article-text h4 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.article-text h4,
+.article-text p {
+  text-align: center;
+  color: #fff;
+  padding: 0.5rem;
+  margin: 0.3rem;
+}
+
+.article-text a {
+  background-color: #fff;
+  padding: 0.5rem;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+}
+
+#example-1 a {
+  color: rgb(228, 125, 40);
+}
+
+#example-2 a {
+  color: rgb(195, 225, 233);
+}
+
+#example-3 a {
+  color: rgb(90, 149, 236);
 }
