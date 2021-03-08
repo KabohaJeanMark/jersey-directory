@@ -57,7 +57,7 @@ a {
   align-items: center;
 }
 
-.fas {
+.nav .fas {
   color: rgb(238, 230, 230);
 }
 
@@ -87,7 +87,6 @@ a {
   display: block;
   height: 15vh;
   background-color: rgba(204, 204, 204, 0.548);
-  /* opacity: 0.8; */
   width: 98%;
   margin: 0 auto;
   border-radius: 1.2rem;
@@ -105,7 +104,7 @@ form label {
   font-weight: bold;
 }
 
-input[type=text], 
+input[type=text],
 form label,
 .landing-button {
   margin: 0.1rem;
@@ -115,4 +114,23 @@ form label,
 .landing-button {
   background-color: rgb(201, 64, 64);
   color: rgb(238, 230, 230);
+  width: 100%;
+}
+
+.walkthrough {
+  display: inline-block;
+  margin: 10vh 40vw 18vh 30vw;
+  padding: 0.5rem;
+  background-color: rgba(204, 204, 204, 0.548);
+}
+
+.work-header h3 {
+  color: rgb(201, 64, 64);
+  text-align: center;
+  padding: 0.8rem;
+}
+
+.work-items {
+  display: grid;
+  grid-template-columns: 1fr;
 }
