@@ -27,6 +27,11 @@ a {
   color: #000;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 /*
     ==============================================
                 ****** MOBILE FIRST DESIGN ******
