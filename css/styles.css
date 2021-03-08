@@ -43,16 +43,21 @@ html {
 .nav {
   display: flex;
   flex-direction: column;
-  height: 20vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 15vh;
   background-color: rgb(201, 64, 64);
   color: rgb(238, 230, 230);
+  z-index: 12;
 }
 
 .logo-div {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vh;
+  height: 7.5vh;
 }
 
 .nav-links {
@@ -75,13 +80,14 @@ html {
   background-size: cover;
   background-position: center;
   opacity: 0.9;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
 }
 
 #landing-text {
   position: absolute;
   top: 30%;
+  z-index: 3;
 }
 
 #landing-text h2 {
@@ -99,7 +105,7 @@ html {
   border-radius: 1.2rem;
 }
 
-form {
+#search-form {
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -107,12 +113,12 @@ form {
   padding: 0.5rem;
 }
 
-form label {
+#search-form label {
   font-weight: bold;
 }
 
 input[type=text],
-form label,
+#search-form label,
 .landing-button {
   margin: 0.1rem;
   padding: 0.3rem;
@@ -129,6 +135,10 @@ form label,
   margin: 10vh 40vw 18vh 30vw;
   padding: 0.5rem;
   background-color: rgba(204, 204, 204, 0.548);
+}
+
+#work {
+  height: 85vh;
 }
 
 .work-header h3 {
@@ -158,6 +168,7 @@ form label,
   justify-content: center;
 }
 
+/* EXAMPLE SECTION */
 .examples {
   width: 100%;
 }
@@ -220,6 +231,85 @@ form label,
 .link {
   display: flex;
   justify-content: center;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  width: 100%;
+}
+
+.footer-row-1 {
+  display: flex;
+}
+
+.footer-nav a,
+.footer-nav .fas {
+  color: #fff;
+}
+
+.footer-nav a {
+  font-size: 0.8rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.8rem;
+}
+
+.logo .fas {
+  border: 1px solid #888;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.links-1,
+.links-2 {
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.9rem;
+  margin: 0.9rem;
+}
+
+.subscribe {
+  width: 60%;
+  margin: 5% auto;
+}
+
+.subscribe p {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#subscribe-form input[type=text] {
+  background-color: #000;
+  color: #888;
+}
+
+#subscribe-form button {
+  padding: 0.5rem;
+  background-color: #888;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(54, 52, 52);
+  height: 10vh;
+}
+
+.footer-bottom a {
+  padding: 0.5rem;
+  margin: 0.5rem;
 }
 
 #example-1 a {
