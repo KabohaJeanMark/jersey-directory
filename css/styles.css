@@ -60,3 +60,59 @@ a {
 .fas {
   color: rgb(238, 230, 230);
 }
+
+#landing-image {
+  position: relative;
+  background-image: url(../assets/dark-gunner.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+  height: 80vh;
+  width: 100%;
+}
+
+#landing-text {
+  position: absolute;
+  top: 30%;
+}
+
+#landing-text h2 {
+  color: rgb(238, 230, 230);
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.landing-form {
+  display: block;
+  height: 15vh;
+  background-color: rgba(204, 204, 204, 0.548);
+  /* opacity: 0.8; */
+  width: 98%;
+  margin: 0 auto;
+  border-radius: 1.2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 12vh;
+  padding: 0.5rem;
+}
+
+form label {
+  font-weight: bold;
+}
+
+input[type=text], 
+form label,
+.landing-button {
+  margin: 0.1rem;
+  padding: 0.3rem;
+}
+
+.landing-button {
+  background-color: rgb(201, 64, 64);
+  color: rgb(238, 230, 230);
+}
