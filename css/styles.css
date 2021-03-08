@@ -178,7 +178,7 @@ input[type=text],
 }
 
 #example-2 {
-  background-color: rgb(195, 225, 233);
+  background-color: rgb(103, 114, 117);
 }
 
 #example-3 {
@@ -317,9 +317,46 @@ footer {
 }
 
 #example-2 a {
-  color: rgb(195, 225, 233);
+  color: rgb(103, 114, 117);
 }
 
 #example-3 a {
   color: rgb(90, 149, 236);
+}
+
+/* SEARCH PAGE 2 */
+
+.search-container {
+  margin-top: 15vh;
+}
+
+.sub-heading h4 {
+  color: #888;
+  text-align: center;
+  padding: 0.8rem;
+}
+
+#search-page-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0.5rem;
+}
+
+#search-page-form button {
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.search-page-btn {
+  background-color: rgb(90, 149, 236);
+}
+
+.clear-btn {
+  background-color: rgb(227, 230, 59);
+}
+
+#search-page-form label {
+  font-weight: bolder;
+  padding: 0.3rem;
 }
