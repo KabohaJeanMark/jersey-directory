@@ -316,6 +316,10 @@ footer {
   margin: 0.5rem;
 }
 
+.footer-nav a:hover {
+  color: rgb(201, 64, 64);
+}
+
 #example-1 a {
   color: rgb(228, 125, 40);
 }
