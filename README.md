@@ -78,7 +78,7 @@ Give a ⭐️ if you like this project!
 - Hat tip to Microverse for the README template, instructions and tutoring for this Capstone project.
 
 ## Inspirations
-- Credit to [Patashule KE](https://www.behance.net/gallery/25563385/PatashuleKE)
+- Credit to [Patashule KE](https://www.behance.net/gallery/25563385/PatashuleKE) for providing the design to base this capstone on.
 
 ## 📝 License
 
