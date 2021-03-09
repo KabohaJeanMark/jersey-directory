@@ -245,8 +245,10 @@ footer {
   width: 100%;
 }
 
-.footer-row-1 {
+.footer-nav .row-1 {
   display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .footer-nav a,
@@ -266,20 +268,26 @@ footer {
 }
 
 .logo .fas {
-  border: 1px solid #888;
+  border: 1px solid rgba(136, 136, 136, 0.336);
   border-radius: 50%;
   padding: 0.5rem;
 }
 
 .links-1,
 .links-2 {
-  border-top: 1px solid #888;
-  border-bottom: 1px solid #888;
+  border-top: 1px solid rgba(136, 136, 136, 0.336);
+  border-bottom: 1px solid rgba(136, 136, 136, 0.336);
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 0.9rem;
   margin: 0.9rem;
+  width: 100%;
+}
+
+.links-1 a,
+.links-2 a {
+  font-weight: bold;
 }
 
 .subscribe {
@@ -287,9 +295,15 @@ footer {
   margin: 5% auto;
 }
 
-.subscribe p {
+.row-2 h6 {
   color: #fff;
   font-size: 1.2rem;
+  text-align: center;
+}
+
+.row-2 p {
+  color: #fff;
+  font-size: 0.6rem;
   text-align: center;
 }
 
@@ -303,12 +317,29 @@ footer {
   background-color: #888;
 }
 
+.footer-bottom-container {
+  display: flex;
+  background-color: rgb(54, 52, 52);
+  height: 10vh;
+}
+
 .footer-bottom {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgb(54, 52, 52);
   height: 10vh;
+}
+
+.right-bottom {
+  background-color: rgb(54, 52, 52);
+  color: #fff;
+}
+
+.right-bottom p {
+  font-size: 0.7rem;
+  margin: 0.9rem;
+  padding: 0.5rem;
 }
 
 .footer-bottom a {
@@ -433,6 +464,10 @@ footer {
   margin: 0.5rem;
 }
 
+.footer-hide {
+  display: none;
+}
+
 /*
     ==============================================
                 ****** MEDIA QUERIES TABLET ******
@@ -473,6 +508,10 @@ footer {
     width: 80%;
   }
 
+  .contact a {
+    font-size: 0.5rem;
+  }
+
   #search-form a {
     display: inline-block;
     width: 20%;
@@ -499,6 +538,61 @@ footer {
   .article-text p {
     text-align: left;
   }
+
+  .footer-nav .row-1 {
+    flex-direction: row;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .logo .fas {
+    padding: 1.2rem;
+  }
+
+  .links-1,
+  .links-2 {
+    margin: 0.9rem 0;
+  }
+
+  .footer-hide {
+    display: block;
+  }
+
+  .row-2 {
+    display: flex;
+  }
+
+  .subscribe {
+    width: 45%;
+    margin: 0.5rem;
+  }
+
+  .contact,
+  .about {
+    width: 25%;
+    margin: 0.5rem;
+  }
+
+  #subscribe-form {
+    width: 80%;
+    margin: auto;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .red-p,
+  #red-link {
+    color: rgb(201, 64, 64);
+  }
+
+  .footer-bottom {
+    justify-content: start;
+    width: 40%;
+  }
 }
 
 /*
@@ -506,8 +600,6 @@ footer {
                 ****** MEDIA QUERIES LAPTOP ******
     ==============================================
 */
-@media only screen and (min-width: 1024px) {
-  .hide {
-    display: inline-block;
-  }
-}
+
+/* @media only screen and (min-width: 1024px) {
+} */
