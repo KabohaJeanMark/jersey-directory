@@ -321,6 +321,7 @@ footer {
   display: flex;
   background-color: rgb(54, 52, 52);
   height: 10vh;
+  width: 100%;
 }
 
 .footer-bottom {
@@ -562,6 +563,7 @@ footer {
 
   .row-2 {
     display: flex;
+    width: 100%;
   }
 
   .subscribe {
@@ -593,6 +595,12 @@ footer {
     justify-content: start;
     width: 40%;
   }
+
+  /* Tablet view for Search Page */
+  .result-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5%;
+  }
 }
 
 /*
@@ -601,5 +609,22 @@ footer {
     ==============================================
 */
 
-/* @media only screen and (min-width: 1024px) {
-} */
+@media only screen and (min-width: 1024px) {
+  #search-page-form {
+    flex-direction: row;
+  }
+
+  #search-page-form input[type=text] {
+    height: 5vh;
+    width: 12vw;
+  }
+
+  #search-page-form button {
+    margin: 0.1rem;
+  }
+
+  .result-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5%;
+  }
+}
