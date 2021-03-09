@@ -12,7 +12,7 @@ It has 3 pages. A main landing page, search page and search details page made re
 | Mobile view | Tablet view | Desktop view |
 
 ### Home Example
-| ![screenshot](assets/home-example-mobile.png) |![screenshot](assets/home-example-tablet.png) | ![screenshot](assets/home-example-laptop.png) | 
+| ![screenshot](assets/example-mobile.png) |![screenshot](assets/example-tablet.png) | ![screenshot](assets/example-laptop.png) | 
 |:---:|:---:|:---:|
 | Mobile view | Tablet view | Desktop view |
 
