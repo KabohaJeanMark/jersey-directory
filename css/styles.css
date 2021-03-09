@@ -482,8 +482,22 @@ footer {
     margin-top: 5vh;
   }
 
+  #work {
+    padding: 3.2rem;
+  }
+
   .work-items {
     grid-template-columns: 1fr 1fr;
+    grid-gap: 5%;
+  }
+
+  .article-example {
+    flex-direction: row;
+  }
+
+  .article-text h4,
+  .article-text p {
+    text-align: left;
   }
 }
 
