@@ -32,6 +32,8 @@ a {
 html {
   scroll-behavior: smooth;
   font-family: 'Didact Gothic', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 img {
@@ -108,7 +110,6 @@ img {
 
 .landing-form {
   display: block;
-  height: 15vh;
   background-color: rgba(204, 204, 204, 0.548);
   width: 98%;
   margin: 0 auto;
@@ -119,12 +120,16 @@ img {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  height: 12vh;
   padding: 0.5rem;
 }
 
 #search-form label {
   font-weight: bold;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
 }
 
 input[type=text],
@@ -293,6 +298,7 @@ footer {
 .subscribe {
   width: 60%;
   margin: 5% auto;
+  text-align: center;
 }
 
 .row-2 h6 {
@@ -502,6 +508,7 @@ footer {
 
   .form-container {
     display: flex;
+    flex-direction: row;
   }
 
   #search-form input[type=text] {
@@ -601,6 +608,19 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 5%;
   }
+
+  /* Tablet view for Search details Page */
+  .detail-container {
+    flex-direction: row;
+  }
+
+  .detail-text {
+    width: 70%;
+  }
+
+  .detail-img {
+    width: 30%;
+  }
 }
 
 /*
@@ -617,6 +637,7 @@ footer {
   #search-page-form input[type=text] {
     height: 5vh;
     width: 12vw;
+    margin-right: 0.5rem;
   }
 
   #search-page-form button {
