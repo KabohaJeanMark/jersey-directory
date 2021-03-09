@@ -379,3 +379,24 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
 }
+
+.grid-item h6 {
+  font-size: 1.5rem;
+}
+
+.grid-item p {
+  color: #888;
+}
+
+.grid-item h6,
+.grid-item p {
+  text-align: center;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+.former-price {
+  text-decoration: line-through;
+  color: rgb(201, 64, 64);
+  font-size: 0.8rem;
+}
