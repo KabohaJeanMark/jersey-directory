@@ -639,7 +639,7 @@ footer {
   }
 
   #search-page-form input[type=text] {
-    height: 5vh;
+    height: 3vh;
     width: 12vw;
     margin-right: 0.5rem;
   }
