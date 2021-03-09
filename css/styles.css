@@ -94,6 +94,10 @@ img {
   position: absolute;
   top: 30%;
   z-index: 3;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #landing-text h2 {
@@ -141,10 +145,6 @@ input[type=text],
   margin: 10vh 40vw 18vh 30vw;
   padding: 0.5rem;
   background-color: rgba(204, 204, 204, 0.548);
-}
-
-#work {
-  height: 85vh;
 }
 
 .work-header h3 {
@@ -448,8 +448,50 @@ footer {
     margin: auto;
     width: 80%;
   }
+
+  #landing-image {
+    margin-top: 10vh;
+    height: 70vh;
+  }
+
+  .landing-form {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .text-heading {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .form-container {
+    display: flex;
+  }
+
+  #search-form input[type=text] {
+    display: inline-block;
+    width: 80%;
+  }
+
+  #search-form a {
+    display: inline-block;
+    width: 20%;
+  }
+
+  .walkthrough {
+    margin-top: 5vh;
+  }
+
+  .work-items {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
+/*
+    ==============================================
+                ****** MEDIA QUERIES LAPTOP ******
+    ==============================================
+*/
 @media only screen and (min-width: 1024px) {
   .hide {
     display: inline-block;
