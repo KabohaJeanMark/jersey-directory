@@ -387,7 +387,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  padding: 0.5rem;
+  padding: 0.9rem;
 }
 
 #search-page-form button {
@@ -493,7 +493,7 @@ footer {
 
   #landing-image {
     margin-top: 10vh;
-    height: 70vh;
+    height: 60vh;
   }
 
   .landing-form {
@@ -630,6 +630,10 @@ footer {
 */
 
 @media only screen and (min-width: 1024px) {
+  .hide {
+    display: inline-block;
+  }
+
   #search-page-form {
     flex-direction: row;
   }
