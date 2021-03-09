@@ -404,3 +404,24 @@ footer {
   color: rgb(201, 64, 64);
   font-size: 0.8rem;
 }
+
+/* SEARCH DETAILS PAGE */
+.details {
+  margin-top: 15vh;
+}
+
+.detail-header {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid #888;
+}
+
+.detail-text p {
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+.detail-container {
+  display: flex;
+  flex-direction: column;
+}
