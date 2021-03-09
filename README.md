@@ -38,13 +38,13 @@ It has 3 pages. A main landing page, search page and search details page made re
 
 ## Live Demo
 
-[Live Demo Link](url/)
+[Live Demo Link](https://kabohajeanmark.github.io/jersey-directory/)
 
 ## Instructions
 To get a local copy up and running follow these simple example steps.
 
 ### Setup
-- Clone in the terminal or download this entire [GitHub Repo](https://github.com/KabohaJeanMark/jersey-directory/) and go to the index.html file.
+- Clone in the terminal or download this entire [GitHub Repo](https://github.com/KabohaJeanMark/jersey-directory/tree/ft-main-page) and go to the index.html file.
 
 ### Install
 - Set up liveserver as an extension in your VS Code.
