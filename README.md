@@ -1,35 +1,36 @@
 # JERSEY DIRECTORY
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+## About
 > jersey-directory is a web app that enhances the shopping experience of customers in need of custom tailored jerseys to suite their needs through a simplified visual walk-through.
 
 It has 3 pages. A main landing page, search page and search details page made responsive with a mobile first approach across different screen sizes.
 
 ## Main Page 
 ### Home Landing
-| ![screenshot](assets/home-landing-phone.png) |![screenshot](assets/home-landing-tab.png) | ![screenshot](assets/home-landing-laptop.png) | 
+| ![screenshot](assets/new-mobile-landing.png) |![screenshot](assets/new-tablet-landing.png) | ![screenshot](assets/new-laptop-landing.png) | 
 |:---:|:---:|:---:|
-| Mobile view | Tablet view | Desktop view |
+| Mobile view | Tablet view | Laptop view |
 
 ### Home Example
 | ![screenshot](assets/example-mobile.png) |![screenshot](assets/example-tablet.png) | ![screenshot](assets/example-laptop.png) | 
 |:---:|:---:|:---:|
-| Mobile view | Tablet view | Desktop view |
+| Mobile view | Tablet view | Laptop view |
 
 ### Footer
-| ![screenshot](assets/footer-mobile.png) |![screenshot](assets/footer-tablet.png) | ![screenshot](assets/footer-laptop.png) | 
+| ![screenshot](assets/new-mobile-footer.png) |![screenshot](assets/footer-tablet.png) | ![screenshot](assets/footer-laptop.png) | 
 |:---:|:---:|:---:|
-| Mobile view | Tablet view | Desktop view |
+| Mobile view | Tablet view | Laptop view |
 
 ## Search Page
-| ![screenshot](assets/search-page-mobile.png) |![screenshot](assets/search-page-tablet.png) | ![screenshot](assets/search-page-laptop.png) | 
+| ![screenshot](assets/search-page-mobile.png) |![screenshot](assets/new-tablet-search.png) | ![screenshot](assets/new-laptop-search.png) | 
 |:---:|:---:|:---:|
-| Mobile view | Tablet view | Desktop view |
+| Mobile view | Tablet view | Laptop view |
 
 ## Search Details Page
-| ![screenshot](assets/search-details-mobile.png) |![screenshot](assets/search-details-tablet.png) | ![screenshot](assets/search-details-laptop.png) | 
+| ![screenshot](assets/new-search-details-mobile.png) |![screenshot](assets/new-search-details-tablet.png) | ![screenshot](assets/new-search-details-laptop.png) | 
 |:---:|:---:|:---:|
-| Mobile view | Tablet view | Desktop view |
+| Mobile view | Tablet view | Laptop view |
 
 ## Built With
 
@@ -43,16 +44,21 @@ It has 3 pages. A main landing page, search page and search details page made re
 ## Instructions
 To get a local copy up and running follow these simple example steps.
 
-### Setup
-- Clone in the terminal or download this entire [GitHub Repo](https://github.com/KabohaJeanMark/jersey-directory/tree/ft-main-page) and go to the index.html file.
+### Prerequisites
+- Gitbash installed to navigate between the branches.
+- A preferred text editor for example VS Code.
+- A browser such as Google Chrome
 
 ### Install
-- Set up liveserver as an extension in your VS Code.
-- If you dont have the live server extension, or are using another software just view directly in your browser.
+Clone this [GitHub Repo](https://github.com/KabohaJeanMark/jersey-directory/tree/ft-main-page) to your computer on yourFolder by typing these commands in the terminal or download as a Zip file and extract.
+```
+$ mkdir yourFolder
+$ cd yourFolder
+$ git clone https://github.com/KabohaJeanMark/jersey-directory/tree/ft-main-page
+```
 
 ### Usage
-- Right click and open the index.html in your browser to view.
-
+- View with live Server in VS code or Right click and open the index.html in your browser to view.
 
 ## Author
 
