@@ -80,7 +80,7 @@ img {
   color: rgb(238, 230, 230);
 }
 
-#landing-image {
+.landing-image {
   position: relative;
   background-image: url(../assets/dark-gunner.webp);
   background-repeat: no-repeat;
@@ -92,7 +92,7 @@ img {
   width: 100%;
 }
 
-#landing-text {
+.landing-text {
   position: absolute;
   top: 30%;
   z-index: 3;
@@ -103,7 +103,7 @@ img {
   justify-content: center;
 }
 
-#landing-text h2 {
+.landing-text h2 {
   color: rgb(238, 230, 230);
   padding: 0.5rem;
   font-size: 1.2rem;
@@ -119,14 +119,14 @@ img {
   border-radius: 1.2rem;
 }
 
-#search-form {
+.search-form {
   display: flex;
   flex-direction: column;
   align-items: stretch;
   padding: 1rem 0.5rem;
 }
 
-#search-form label {
+.search-form label {
   font-weight: bold;
 }
 
@@ -136,7 +136,7 @@ img {
 }
 
 input[type=text],
-#search-form label,
+.search-form label,
 .landing-button {
   margin: 0.1rem;
   padding: 0.3rem;
@@ -188,15 +188,15 @@ input[type=text],
   width: 100%;
 }
 
-#example-1 {
+.example-1 {
   background-color: rgb(228, 125, 40);
 }
 
-#example-2 {
+.example-2 {
   background-color: rgb(103, 114, 117);
 }
 
-#example-3 {
+.example-3 {
   background-color: rgb(90, 149, 236);
 }
 
@@ -222,8 +222,20 @@ input[type=text],
   margin: 0.5rem;
 }
 
-#example-3 img {
+.example-3 img {
   border-radius: 10%;
+}
+
+.example-1 a {
+  color: rgb(228, 125, 40);
+}
+
+.example-2 a {
+  color: rgb(103, 114, 117);
+}
+
+.example-3 a {
+  color: rgb(90, 149, 236);
 }
 
 .article-text h4 {
@@ -322,12 +334,12 @@ footer {
   text-align: center;
 }
 
-#subscribe-form input[type=text] {
+.subscribe-form input[type=text] {
   background-color: #000;
   color: #888;
 }
 
-#subscribe-form button {
+.subscribe-form button {
   padding: 0.5rem;
   background-color: #888;
 }
@@ -368,18 +380,6 @@ footer {
   color: rgb(201, 64, 64);
 }
 
-#example-1 a {
-  color: rgb(228, 125, 40);
-}
-
-#example-2 a {
-  color: rgb(103, 114, 117);
-}
-
-#example-3 a {
-  color: rgb(90, 149, 236);
-}
-
 /* SEARCH PAGE 2 */
 
 .search-container {
@@ -393,14 +393,14 @@ footer {
   padding: 0.8rem;
 }
 
-#search-page-form {
+.search-page-form {
   display: flex;
   flex-direction: column;
   align-items: stretch;
   padding: 0.9rem;
 }
 
-#search-page-form button {
+.search-page-form button {
   padding: 0.5rem;
   margin: 0.5rem;
   color: #fff;
@@ -416,7 +416,7 @@ footer {
   background-color: rgb(230, 156, 59);
 }
 
-#search-page-form label {
+.search-page-form label {
   font-weight: bolder;
   padding: 0.3rem;
 }
@@ -501,7 +501,7 @@ footer {
     width: 80%;
   }
 
-  #landing-image {
+  .landing-image {
     margin-top: 10vh;
     height: 60vh;
   }
@@ -521,16 +521,17 @@ footer {
     flex-direction: row;
   }
 
-  #search-form input[type=text] {
+  .search-form input[type=text] {
     display: inline-block;
     width: 80%;
   }
 
   .contact a {
     font-size: 0.5rem;
+    color: rgb(201, 64, 64);
   }
 
-  #search-form a {
+  .search-form a {
     display: inline-block;
     width: 20%;
   }
@@ -539,7 +540,7 @@ footer {
     margin-top: 5vh;
   }
 
-  #work {
+  .work {
     padding: 3.2rem;
   }
 
@@ -589,7 +590,7 @@ footer {
     margin: 0.5rem;
   }
 
-  #subscribe-form {
+  .subscribe-form {
     width: 80%;
     margin: auto;
   }
@@ -598,8 +599,7 @@ footer {
     text-align: center;
   }
 
-  .red-p,
-  #red-link {
+  .red-p {
     color: rgb(201, 64, 64);
   }
 
@@ -639,17 +639,17 @@ footer {
     display: inline-block;
   }
 
-  #search-page-form {
+  .search-page-form {
     flex-direction: row;
   }
 
-  #search-page-form input[type=text] {
+  .search-page-form input[type=text] {
     height: 3vh;
     width: 12vw;
     margin-right: 0.5rem;
   }
 
-  #search-page-form button {
+  .search-page-form button {
     margin: 0.1rem;
   }
 
