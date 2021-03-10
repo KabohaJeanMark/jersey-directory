@@ -291,7 +291,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   padding: 0.9rem;
-  margin: 0.9rem;
+  margin: 0.9rem 0;
   width: 100%;
 }
 
@@ -341,6 +341,7 @@ footer {
   align-items: center;
   background-color: rgb(54, 52, 52);
   height: 10vh;
+  width: 100%;
 }
 
 .right-bottom {
@@ -562,11 +563,6 @@ footer {
 
   .logo .fas {
     padding: 1.2rem;
-  }
-
-  .links-1,
-  .links-2 {
-    margin: 0.9rem 0;
   }
 
   .footer-hide {
