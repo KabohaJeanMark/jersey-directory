@@ -100,12 +100,15 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 #landing-text h2 {
   color: rgb(238, 230, 230);
   padding: 0.5rem;
-  font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  text-align: center;
 }
 
 .landing-form {
@@ -148,8 +151,9 @@ input[type=text],
 .walkthrough {
   display: inline-block;
   margin: 10vh 40vw 18vh 30vw;
-  padding: 0.5rem;
+  padding: 0.8rem;
   background-color: rgba(204, 204, 204, 0.548);
+  white-space: nowrap;
 }
 
 .work-header h3 {
