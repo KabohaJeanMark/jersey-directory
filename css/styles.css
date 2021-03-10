@@ -430,7 +430,12 @@ footer {
 
 .result-grid {
   display: grid;
+  width: 100%;
   grid-template-columns: 1fr;
+}
+
+.grid-item {
+  margin-bottom: 6%;
 }
 
 .grid-item h6 {
@@ -614,7 +619,9 @@ footer {
   /* Tablet view for Search Page */
   .result-grid {
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 5%;
+    grid-column-gap: 2%;
+    width: 90%;
+    margin: 0 auto;
   }
 
   /* Tablet view for Search details Page */
@@ -658,6 +665,6 @@ footer {
 
   .result-grid {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 5%;
+    grid-column-gap: 1%;
   }
 }
