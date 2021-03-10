@@ -138,7 +138,7 @@ img {
 input[type=text],
 .search-form label,
 .landing-button {
-  margin: 0.1rem;
+  margin: 0.3rem 0;
   padding: 0.3rem;
 }
 
@@ -524,6 +524,7 @@ footer {
   .search-form input[type=text] {
     display: inline-block;
     width: 80%;
+    margin: 0.1rem 0.3rem;
   }
 
   .contact a {
@@ -534,6 +535,7 @@ footer {
   .search-form a {
     display: inline-block;
     width: 20%;
+    margin: 0.1rem 0.3rem;
   }
 
   .walkthrough {
