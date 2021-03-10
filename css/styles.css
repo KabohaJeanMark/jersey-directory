@@ -106,7 +106,7 @@ img {
 .landing-text h2 {
   color: rgb(238, 230, 230);
   padding: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bolder;
   text-align: center;
 }
@@ -133,6 +133,7 @@ img {
 .form-container {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 input[type=text],
@@ -498,7 +499,7 @@ footer {
 
   .logo-div {
     margin: auto;
-    width: 80%;
+    padding-left: 5%;
   }
 
   .landing-image {
