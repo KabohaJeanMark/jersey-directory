@@ -466,18 +466,20 @@ footer {
 
 .detail-header {
   margin: 0.5rem;
-  padding: 0.5rem;
+  padding: 1rem;
   border-bottom: 1px solid #888;
 }
 
 .detail-text p {
   padding: 0.2rem;
   margin: 0.2rem;
+  text-align: justify;
 }
 
 .detail-container {
   display: flex;
   flex-direction: column;
+  padding: 2rem 1rem;
 }
 
 .hide {
@@ -625,8 +627,13 @@ footer {
   }
 
   /* Tablet view for Search details Page */
+  .details {
+    margin-top: 10vh;
+  }
+
   .detail-container {
     flex-direction: row;
+    padding: 2rem;
   }
 
   .detail-text {
@@ -635,6 +642,7 @@ footer {
 
   .detail-img {
     width: 30%;
+    margin-top: 0.5rem;
   }
 }
 
