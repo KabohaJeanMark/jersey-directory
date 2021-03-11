@@ -430,7 +430,8 @@ footer {
 
 .result-grid {
   display: grid;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   grid-template-columns: 1fr;
 }
 
@@ -646,8 +647,6 @@ footer {
   .result-grid {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 2%;
-    width: 90%;
-    margin: 0 auto;
   }
 
   /* Tablet view for Search details Page */
