@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Kaboha Jean Mark">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Jersey Search</title>
+        <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="shortcut icon" href="assets/jjlogo.jpeg">
+        <script src="https://unpkg.com/scrollreveal"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="nav">
+                <div class="logo-div">
+                    <h1>
+                        <a href="index.html"><i class="fas fa-tshirt"></i></a>
+                         Search Page
+                    </h1>
+                </div>
+                <div class="nav-links">
+                    <a href="search.html"><i class="fas fa-search"></i><span class="hide">JERSEYS</span></a>
+                    <a href="#"><i class="fas fa-user"></i><span class="hide">ABOUT</span></a>
+                    <a href="#"><i class="fas fa-rss-square"></i><span class="hide">BLOG</span></a>
+                    <a href="#"><i class="fas fa-bars"></i><span class="hide">MORE</span></a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="search-container">
+                <div class="sub-heading">
+                    <h4>Filter by country, league, team or colour</h4>
+                </div>
+                <form method="POST" class="search-page-form">
+                    <label for="country">COUNTRY:</label>
+                    <input type="text" id="country" placeholder="Type country..">
+                    <label for="league">LEAGUE:</label>
+                    <input type="text" id="league" placeholder="La Liga..">
+                    <label for="team">TEAM:</label>
+                    <input type="text" id="team" placeholder="Man U">
+                    <label for="colour">COLOUR:</label>
+                    <input type="text" id="colour" placeholder="red">
+                    <div class="form-buttons">
+                        <button type="button" class="search-page-btn">search</button>
+                        <button type="button" class="clear-btn">clear filter</button>
+                    </div>
+                </form>
+            </div>
+            <section class="results">
+                <h4>Search Results Found 8 jerseys</h4>
+                <section class="result-grid">
+                    <article class="grid-item">
+                        <a href="search-details.html">
+                            <img src="assets/barca-bro-code.webp" alt="barca home">
+                        </a>
+                        <h6>Barca Away kit</h6>
+                        <p><span class="former-price">30$</span> 15$</p>
+                    </article>
+                    <article class="grid-item">
+                        <a href="search-details.html">
+                            <img src="assets/ken-dortmund-black.webp" alt="dortmund black">
+                        </a>
+                        <h6>Dortmund black</h6>
+                        <p><span class="former-price">30$</span> 15$</p>
+                    </article>
+                    <article class="grid-item">
+                        <a href="search-details.html">
+                            <img src="assets/inter-milan-josh.webp" alt="milan home">
+                        </a>
+                        <h6>Inter Milan Home</h6>
+                        <p><span class="former-price">30$</span> 15$</p>
+                    </article>
+                    <article class="grid-item">
+                        <a href="search-details.html">
+                            <img src="assets/liverpool-dark.webp" alt="pool dark">
+                        </a>
+                        <h6>Liverpool Dark</h6>
+                        <p><span class="former-price">30$</span> 15$</p>
+                    </article>
+                    <article class="grid-item">
+                        <a href="search-details.html">
+                            <img src="assets/man-city-surfing.webp" alt="man city white">
+                        </a>
+                        <h6>Man City Home</h6>
+                        <p><span class="former-price">30$</span> 15$</p>
+                    </article>
+                    <article class="grid-item">
+                        <a href="search-details.html">
+                            <img src="assets/tubing.webp" alt="liverpool">
+                        </a>
+                        <h6>Liverpool</h6>
+                        <p><span class="former-price">30$</span> 15$</p>
+                    </article>
+                    <article class="grid-item">
+                        <a href="search-details.html">
+                            <img src="assets/mancity-white.webp" alt="man city">
+                        </a>
+                        <h6>Man City White</h6>
+                        <p><span class="former-price">30$</span> 15$</p>
+                    </article>
+                    <article class="grid-item">
+                        <a href="search-details.html">
+                            <img src="assets/soccer.webp" alt="man u ">
+                        </a>
+                        <h6>Man U Zebra</h6>
+                        <p><span class="former-price">30$</span> 15$</p>
+                    </article>
+                </section>
+            </section>
+        </main>
+        <footer>
+            <nav class="footer-nav">
+                <div class="row-1">
+                    <div class="links-1">
+                        <a href="#">HOME</a>
+                        <a href="search.html">SEARCH</a>
+                        <a href="#">ABOUT US</a>
+                        <a href="#">ADVERTISE</a>
+                    </div>
+                    <div class="logo">
+                        <a href="#"><i class="fas fa-tshirt fa-2x"></i></a>
+                    </div>
+                    <div class="links-2">
+                        <a href="#">FACEBOOK</a>
+                        <a href="#">TWITTER</a>
+                        <a href="#">BLOG</a>
+                        <a href="#">GOOGLE +</a>
+                    </div>
+                </div>
+                <div class="row-2">
+                    <div class="subscribe">
+                        <h6>SUBSCRIBE</h6>
+                        <form method="POST" class="subscribe-form">
+                            <input type="text" placeholder="youremail@gmail.com">
+                            <button type="submit">send</button>
+                        </form>
+                    </div>
+                    <div class="contact footer-hide">
+                        <h6>CONTACT</h6>
+                        <p class="red-p">have a question or submission?</p>
+                        <a href="#">info@jeans-directory.com</a>
+                    </div>
+                    <div class="about footer-hide">
+                        <h6>ABOUT</h6>
+                        <p>jersey-directory is a web app that enhances the shopping experience of customers in need of custom tailored jerseys to suite their needs through a simplified visual walk-through. <span class="red-p">Learn more?</span></p>
+                    </div>
+                </div>
+                <div class="footer-bottom-container">
+                    <div class="footer-bottom">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fas fa-rss-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                   <div class="right-bottom footer-hide">
+                       <p>&copy; 2021 ALL RIGHTS RESERVED POWERED BY <span style="font-weight:bold">JEAN'S DIRECTORY</span></p>
+                   </div>
+                </div>
+            </nav>
+        </footer>
+    </body>
+    
+</html>
