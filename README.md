@@ -13,7 +13,7 @@ It has 3 pages. A main landing page, search page and search details page made re
 | Mobile view | Tablet view | Laptop view |
 
 ### Home Example
-| ![screenshot](assets/example-mobile.png) |![screenshot](assets/example-tablet.png) | ![screenshot](assets/example-laptop.png) | 
+| ![screenshot](assets/example-mobile.png) |![screenshot](assets/new-example-tablet.png) | ![screenshot](assets/new-example-laptop.png) | 
 |:---:|:---:|:---:|
 | Mobile view | Tablet view | Laptop view |
 
@@ -23,7 +23,7 @@ It has 3 pages. A main landing page, search page and search details page made re
 | Mobile view | Tablet view | Laptop view |
 
 ## Search Page
-| ![screenshot](assets/search-page-mobile.png) |![screenshot](assets/new-tablet-search.png) | ![screenshot](assets/new-laptop-search.png) | 
+| ![screenshot](assets/new-mobile-search.png) |![screenshot](assets/new-tablet-search.png) | ![screenshot](assets/new-laptop-search.png) | 
 |:---:|:---:|:---:|
 | Mobile view | Tablet view | Laptop view |
 
