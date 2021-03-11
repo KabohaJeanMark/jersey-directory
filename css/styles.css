@@ -588,6 +588,14 @@ footer {
     flex-direction: row;
   }
 
+  .link {
+    justify-content: start;
+  }
+
+  .link a {
+    margin-left: 3%;
+  }
+
   .logo {
     margin: 0;
   }
@@ -671,6 +679,10 @@ footer {
 @media only screen and (min-width: 1024px) {
   .hide {
     display: inline-block;
+  }
+
+  .link a {
+    margin-left: 2%;
   }
 
   .search-page-form {
